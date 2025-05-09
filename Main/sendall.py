@@ -18,7 +18,6 @@ async def main():
         # Recupera todos os diálogos (contatos)
         dialogs = await client.get_dialogs()
         
-        # Contador de mensagens enviadas
         enviadas = 0
         
         for dialog in dialogs:
